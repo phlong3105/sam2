@@ -27,7 +27,7 @@ use_fullname: False
 exist_ok    : True
 verbose     : True
 
-# Model Specific
+# Misc
 config_file                   : "sam2_hiera_l.yaml"
 points_per_side               : 64
 points_per_batch              : 128
