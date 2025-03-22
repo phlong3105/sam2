@@ -13,7 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {StreamingStateUpdateEvent} from '@/common/components/video/VideoWorkerBridge';
+import {
+    StreamingStateUpdateEvent
+} from '@/common/components/video/VideoWorkerBridge';
 import useVideo from '@/common/components/video/editor/useVideo';
 import {StreamingState} from '@/common/tracker/Tracker';
 import {isStreamingAtom, streamingStateAtom} from '@/demo/atoms';

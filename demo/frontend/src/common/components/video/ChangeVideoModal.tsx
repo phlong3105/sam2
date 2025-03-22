@@ -13,8 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import type {VideoGalleryTriggerProps} from '@/common/components/gallery/DemoVideoGalleryModal';
-import DemoVideoGalleryModal from '@/common/components/gallery/DemoVideoGalleryModal';
+import type {
+    VideoGalleryTriggerProps
+} from '@/common/components/gallery/DemoVideoGalleryModal';
+import DemoVideoGalleryModal
+    from '@/common/components/gallery/DemoVideoGalleryModal';
 import useVideo from '@/common/components/video/editor/useVideo';
 import Logger from '@/common/logger/Logger';
 import {isStreamingAtom, uploadingStateAtom, VideoData} from '@/demo/atoms';

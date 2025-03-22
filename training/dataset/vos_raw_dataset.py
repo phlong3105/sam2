@@ -5,25 +5,18 @@
 # LICENSE file in the root directory of this source tree.
 
 import glob
-import logging
 import os
 from dataclasses import dataclass
-
 from typing import List, Optional
 
-import pandas as pd
-
 import torch
-
 from iopath.common.file_io import g_pathmgr
-
 from omegaconf.listconfig import ListConfig
-
 from training.dataset.vos_segment_loader import (
-    JSONSegmentLoader,
-    MultiplePNGSegmentLoader,
-    PalettisedPNGSegmentLoader,
-    SA1BSegmentLoader,
+	JSONSegmentLoader,
+	MultiplePNGSegmentLoader,
+	PalettisedPNGSegmentLoader,
+	SA1BSegmentLoader,
 )
 
 

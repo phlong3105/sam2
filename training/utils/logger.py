@@ -13,12 +13,10 @@ import uuid
 from typing import Any, Dict, Optional, Union
 
 from hydra.utils import instantiate
-
 from iopath.common.file_io import g_pathmgr
 from numpy import ndarray
 from torch import Tensor
 from torch.utils.tensorboard import SummaryWriter
-
 from training.utils.train_utils import get_machine_local_and_dist_rank, makedir
 
 Scalar = Union[Tensor, ndarray, int, float]

@@ -13,13 +13,10 @@ from argparse import ArgumentParser
 
 import submitit
 import torch
-
 from hydra import compose, initialize_config_module
 from hydra.utils import instantiate
-
 from iopath.common.file_io import g_pathmgr
 from omegaconf import OmegaConf
-
 from training.utils.train_utils import makedir, register_omegaconf_resolvers
 
 os.environ["HYDRA_FULL_ERROR"] = "1"

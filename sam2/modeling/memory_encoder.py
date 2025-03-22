@@ -10,7 +10,6 @@ from typing import Tuple
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
 from sam2.modeling.sam2_utils import DropPath, get_clones, LayerNorm2d
 
 

@@ -16,17 +16,19 @@
 import {hexToRgb} from '@/common/components/video/editor/VideoEditorUtils';
 import BaseGLEffect from '@/common/components/video/effects/BaseGLEffect';
 import {
-  EffectFrameContext,
-  EffectInit,
+    EffectFrameContext,
+    EffectInit,
 } from '@/common/components/video/effects/Effect';
-import vertexShaderSource from '@/common/components/video/effects/shaders/DefaultVert.vert?raw';
-import fragmentShaderSource from '@/common/components/video/effects/shaders/Overlay.frag?raw';
+import vertexShaderSource
+    from '@/common/components/video/effects/shaders/DefaultVert.vert?raw';
+import fragmentShaderSource
+    from '@/common/components/video/effects/shaders/Overlay.frag?raw';
 import {Tracklet} from '@/common/tracker/Tracker';
 import {
-  findIndexByTrackletId,
-  preAllocateTextures,
+    findIndexByTrackletId,
+    preAllocateTextures,
 } from '@/common/utils/ShaderUtils';
-import {RLEObject, decode} from '@/jscocotools/mask';
+import {decode, RLEObject} from '@/jscocotools/mask';
 import invariant from 'invariant';
 import {CanvasForm} from 'pts';
 

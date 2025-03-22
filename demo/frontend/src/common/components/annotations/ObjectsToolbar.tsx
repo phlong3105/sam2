@@ -16,17 +16,19 @@
 import AddObjectButton from '@/common/components/annotations/AddObjectButton';
 import FirstClickView from '@/common/components/annotations/FirstClickView';
 import LimitNotice from '@/common/components/annotations/LimitNotice';
-import ObjectsToolbarBottomActions from '@/common/components/annotations/ObjectsToolbarBottomActions';
-import ObjectsToolbarHeader from '@/common/components/annotations/ObjectsToolbarHeader';
+import ObjectsToolbarBottomActions
+    from '@/common/components/annotations/ObjectsToolbarBottomActions';
+import ObjectsToolbarHeader
+    from '@/common/components/annotations/ObjectsToolbarHeader';
 import {getObjectLabel} from '@/common/components/annotations/ObjectUtils';
 import ToolbarObject from '@/common/components/annotations/ToolbarObject';
 import {
-  activeTrackletObjectAtom,
-  activeTrackletObjectIdAtom,
-  isAddObjectEnabledAtom,
-  isFirstClickMadeAtom,
-  isTrackletObjectLimitReachedAtom,
-  trackletObjectsAtom,
+    activeTrackletObjectAtom,
+    activeTrackletObjectIdAtom,
+    isAddObjectEnabledAtom,
+    isFirstClickMadeAtom,
+    isTrackletObjectLimitReachedAtom,
+    trackletObjectsAtom,
 } from '@/demo/atoms';
 import {useAtomValue, useSetAtom} from 'jotai';
 

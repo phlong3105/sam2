@@ -13,8 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import MobileObjectsToolbarHeader from '@/common/components/annotations/MobileObjectsToolbarHeader';
-import ObjectsToolbarBottomActions from '@/common/components/annotations/ObjectsToolbarBottomActions';
+import MobileObjectsToolbarHeader
+    from '@/common/components/annotations/MobileObjectsToolbarHeader';
+import ObjectsToolbarBottomActions
+    from '@/common/components/annotations/ObjectsToolbarBottomActions';
 import {getObjectLabel} from '@/common/components/annotations/ObjectUtils';
 import ToolbarObject from '@/common/components/annotations/ToolbarObject';
 import MobileFirstClickBanner from '@/common/components/MobileFirstClickBanner';

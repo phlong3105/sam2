@@ -17,19 +17,21 @@ import EffectsCarousel from '@/common/components/effects/EffectsCarousel';
 import {backgroundEffects} from '@/common/components/effects/EffectsUtils';
 import useVideoEffect from '@/common/components/video/editor/useVideoEffect';
 import {
-  EffectIndex,
-  effectPresets,
+    EffectIndex,
+    effectPresets,
 } from '@/common/components/video/effects/Effects';
 import {ListBoxes, MagicWand, MagicWandFilled} from '@carbon/icons-react';
 import {useCallback, useRef, useState} from 'react';
 import {Button} from 'react-daisyui';
 
-import EffectsToolbarBottomActions from '@/common/components/effects/EffectsToolbarBottomActions';
-import ToolbarProgressChip from '@/common/components/toolbar/ToolbarProgressChip';
+import EffectsToolbarBottomActions
+    from '@/common/components/effects/EffectsToolbarBottomActions';
+import ToolbarProgressChip
+    from '@/common/components/toolbar/ToolbarProgressChip';
 import {
-  activeBackgroundEffectAtom,
-  activeHighlightEffectAtom,
-  activeHighlightEffectGroupAtom,
+    activeBackgroundEffectAtom,
+    activeHighlightEffectAtom,
+    activeHighlightEffectGroupAtom,
 } from '@/demo/atoms';
 import {BLUE_PINK_FILL} from '@/theme/gradientStyle';
 import {useAtomValue} from 'jotai';

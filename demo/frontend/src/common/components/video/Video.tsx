@@ -18,12 +18,12 @@ import {TrackerOptions, Trackers} from '@/common/tracker/Trackers';
 import {PauseFilled, PlayFilledAlt} from '@carbon/icons-react';
 import stylex, {StyleXStyles} from '@stylexjs/stylex';
 import {
-  CSSProperties,
-  forwardRef,
-  useEffect,
-  useImperativeHandle,
-  useMemo,
-  useRef,
+    CSSProperties,
+    forwardRef,
+    useEffect,
+    useImperativeHandle,
+    useMemo,
+    useRef,
 } from 'react';
 import {Button} from 'react-daisyui';
 
@@ -36,8 +36,8 @@ import {useAtom} from 'jotai';
 import useResizeObserver from 'use-resize-observer';
 import VideoLoadingOverlay from './VideoLoadingOverlay';
 import {
-  StreamingStateUpdateEvent,
-  VideoWorkerEventMap,
+    StreamingStateUpdateEvent,
+    VideoWorkerEventMap,
 } from './VideoWorkerBridge';
 import {EffectOptions} from './effects/Effect';
 import useVideoWorker from './useVideoWorker';

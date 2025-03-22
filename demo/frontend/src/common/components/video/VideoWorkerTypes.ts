@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 import {
-  DecodeEvent,
-  EffectUpdateEvent,
-  EncodingCompletedEvent,
-  EncodingStateUpdateEvent,
-  FilmstripEvent,
-  FrameUpdateEvent,
-  LoadStartEvent,
-  RenderingErrorEvent,
+    DecodeEvent,
+    EffectUpdateEvent,
+    EncodingCompletedEvent,
+    EncodingStateUpdateEvent,
+    FilmstripEvent,
+    FrameUpdateEvent,
+    LoadStartEvent,
+    RenderingErrorEvent,
 } from './VideoWorkerBridge';
 import {EffectOptions} from './effects/Effect';
 import type {Effects} from './effects/Effects';

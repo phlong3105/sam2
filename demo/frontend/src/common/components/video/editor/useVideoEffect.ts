@@ -15,8 +15,8 @@
  */
 import useVideo from '@/common/components/video/editor/useVideo';
 import {
-  activeBackgroundEffectAtom,
-  activeHighlightEffectAtom,
+    activeBackgroundEffectAtom,
+    activeHighlightEffectAtom,
 } from '@/demo/atoms';
 import {useSetAtom} from 'jotai';
 import {useCallback, useEffect} from 'react';

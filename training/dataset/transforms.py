@@ -9,7 +9,6 @@ Transforms and data augmentation for both image + bbox.
 """
 
 import logging
-
 import random
 from typing import Iterable
 
@@ -18,9 +17,7 @@ import torchvision.transforms as T
 import torchvision.transforms.functional as F
 import torchvision.transforms.v2.functional as Fv2
 from PIL import Image as PILImage
-
 from torchvision.transforms import InterpolationMode
-
 from training.utils.data_utils import VideoDatapoint
 
 

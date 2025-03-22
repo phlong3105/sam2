@@ -13,40 +13,46 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import TrackletsAnnotation from '@/common/components/annotations/TrackletsAnnotation';
-import useCloseSessionBeforeUnload from '@/common/components/session/useCloseSessionBeforeUnload';
+import TrackletsAnnotation
+    from '@/common/components/annotations/TrackletsAnnotation';
+import useCloseSessionBeforeUnload
+    from '@/common/components/session/useCloseSessionBeforeUnload';
 import MessagesSnackbar from '@/common/components/snackbar/MessagesSnackbar';
-import useMessagesSnackbar from '@/common/components/snackbar/useDemoMessagesSnackbar';
+import useMessagesSnackbar
+    from '@/common/components/snackbar/useDemoMessagesSnackbar';
 import {OBJECT_TOOLBAR_INDEX} from '@/common/components/toolbar/ToolbarConfig';
 import useToolbarTabs from '@/common/components/toolbar/useToolbarTabs';
-import VideoFilmstripWithPlayback from '@/common/components/video/VideoFilmstripWithPlayback';
+import VideoFilmstripWithPlayback
+    from '@/common/components/video/VideoFilmstripWithPlayback';
 import {
-  FrameUpdateEvent,
-  RenderingErrorEvent,
-  SessionStartedEvent,
-  TrackletsEvent,
+    FrameUpdateEvent,
+    RenderingErrorEvent,
+    SessionStartedEvent,
+    TrackletsEvent,
 } from '@/common/components/video/VideoWorkerBridge';
 import VideoEditor from '@/common/components/video/editor/VideoEditor';
-import useResetDemoEditor from '@/common/components/video/editor/useResetEditor';
+import useResetDemoEditor
+    from '@/common/components/video/editor/useResetEditor';
 import useVideo from '@/common/components/video/editor/useVideo';
-import InteractionLayer from '@/common/components/video/layers/InteractionLayer';
+import InteractionLayer
+    from '@/common/components/video/layers/InteractionLayer';
 import {PointsLayer} from '@/common/components/video/layers/PointsLayer';
 import LoadingStateScreen from '@/common/loading/LoadingStateScreen';
 import UploadLoadingScreen from '@/common/loading/UploadLoadingScreen';
 import useScreenSize from '@/common/screen/useScreenSize';
 import {SegmentationPoint} from '@/common/tracker/Tracker';
 import {
-  activeTrackletObjectIdAtom,
-  frameIndexAtom,
-  isAddObjectEnabledAtom,
-  isPlayingAtom,
-  isVideoLoadingAtom,
-  pointsAtom,
-  sessionAtom,
-  streamingStateAtom,
-  trackletObjectsAtom,
-  uploadingStateAtom,
-  VideoData,
+    activeTrackletObjectIdAtom,
+    frameIndexAtom,
+    isAddObjectEnabledAtom,
+    isPlayingAtom,
+    isVideoLoadingAtom,
+    pointsAtom,
+    sessionAtom,
+    streamingStateAtom,
+    trackletObjectsAtom,
+    uploadingStateAtom,
+    VideoData,
 } from '@/demo/atoms';
 import useSettingsContext from '@/settings/useSettingsContext';
 import {color, spacing} from '@/theme/tokens.stylex';

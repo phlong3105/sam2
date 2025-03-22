@@ -15,27 +15,26 @@ import numpy as np
 import torch
 from app_conf import APP_ROOT, MODEL_SIZE
 from inference.data_types import (
-    AddMaskRequest,
-    AddPointsRequest,
-    CancelPorpagateResponse,
-    CancelPropagateInVideoRequest,
-    ClearPointsInFrameRequest,
-    ClearPointsInVideoRequest,
-    ClearPointsInVideoResponse,
-    CloseSessionRequest,
-    CloseSessionResponse,
-    Mask,
-    PropagateDataResponse,
-    PropagateDataValue,
-    PropagateInVideoRequest,
-    RemoveObjectRequest,
-    RemoveObjectResponse,
-    StartSessionRequest,
-    StartSessionResponse,
+	AddMaskRequest,
+	AddPointsRequest,
+	CancelPorpagateResponse,
+	CancelPropagateInVideoRequest,
+	ClearPointsInFrameRequest,
+	ClearPointsInVideoRequest,
+	ClearPointsInVideoResponse,
+	CloseSessionRequest,
+	CloseSessionResponse,
+	Mask,
+	PropagateDataResponse,
+	PropagateDataValue,
+	PropagateInVideoRequest,
+	RemoveObjectRequest,
+	RemoveObjectResponse,
+	StartSessionRequest,
+	StartSessionResponse,
 )
 from pycocotools.mask import decode as decode_masks, encode as encode_masks
 from sam2.build_sam import build_sam2_video_predictor
-
 
 logger = logging.getLogger(__name__)
 

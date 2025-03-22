@@ -16,12 +16,12 @@
 import {cloneFrame} from '@/common/codecs/WebCodecUtils';
 import {FileStream} from '@/common/utils/FileUtils';
 import {
-  createFile,
-  DataStream,
-  MP4ArrayBuffer,
-  MP4File,
-  MP4Sample,
-  MP4VideoTrack,
+    createFile,
+    DataStream,
+    MP4ArrayBuffer,
+    MP4File,
+    MP4Sample,
+    MP4VideoTrack,
 } from 'mp4box';
 import {isAndroid, isChrome, isEdge, isWindows} from 'react-device-detect';
 

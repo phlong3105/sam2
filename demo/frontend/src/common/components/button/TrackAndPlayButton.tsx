@@ -14,14 +14,15 @@
  * limitations under the License.
  */
 import PrimaryCTAButton from '@/common/components/button/PrimaryCTAButton';
-import useMessagesSnackbar from '@/common/components/snackbar/useDemoMessagesSnackbar';
+import useMessagesSnackbar
+    from '@/common/components/snackbar/useDemoMessagesSnackbar';
 import useFunctionThrottle from '@/common/components/useFunctionThrottle';
 import useVideo from '@/common/components/video/editor/useVideo';
 import {
-  areTrackletObjectsInitializedAtom,
-  isStreamingAtom,
-  sessionAtom,
-  streamingStateAtom,
+    areTrackletObjectsInitializedAtom,
+    isStreamingAtom,
+    sessionAtom,
+    streamingStateAtom,
 } from '@/demo/atoms';
 import {ChevronRight} from '@carbon/icons-react';
 import {useAtom, useAtomValue, useSetAtom} from 'jotai';

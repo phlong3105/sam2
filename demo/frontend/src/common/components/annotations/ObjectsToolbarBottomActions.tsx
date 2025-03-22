@@ -13,13 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import ClearAllPointsInVideoButton from '@/common/components/annotations/ClearAllPointsInVideoButton';
-import CloseSessionButton from '@/common/components/annotations/CloseSessionButton';
+import ClearAllPointsInVideoButton
+    from '@/common/components/annotations/ClearAllPointsInVideoButton';
+import CloseSessionButton
+    from '@/common/components/annotations/CloseSessionButton';
 import TrackAndPlayButton from '@/common/components/button/TrackAndPlayButton';
-import ToolbarBottomActionsWrapper from '@/common/components/toolbar/ToolbarBottomActionsWrapper';
+import ToolbarBottomActionsWrapper
+    from '@/common/components/toolbar/ToolbarBottomActionsWrapper';
 import {
-  EFFECT_TOOLBAR_INDEX,
-  OBJECT_TOOLBAR_INDEX,
+    EFFECT_TOOLBAR_INDEX,
+    OBJECT_TOOLBAR_INDEX,
 } from '@/common/components/toolbar/ToolbarConfig';
 import {streamingStateAtom} from '@/demo/atoms';
 import {useAtomValue} from 'jotai';

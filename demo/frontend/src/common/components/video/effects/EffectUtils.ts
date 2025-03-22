@@ -16,6 +16,23 @@
 import invariant from 'invariant';
 import {Group} from 'pts';
 import {EffectFrameContext} from './Effect';
+import {Effects} from '@/common/components/video/effects/Effects';
+import type {CarbonIconType} from '@carbon/icons-react';
+import {
+    AppleDash,
+    Asterisk,
+    Barcode,
+    CenterCircle,
+    ColorPalette,
+    ColorSwitch,
+    Development,
+    Erase,
+    FaceWink,
+    Humidity,
+    Image,
+    Overlay,
+    TextFont,
+} from '@carbon/icons-react';
 
 export type MaskCanvas = {
   maskCanvas: OffscreenCanvas;
@@ -23,24 +40,6 @@ export type MaskCanvas = {
   scaleX: number;
   scaleY: number;
 };
-
-import {Effects} from '@/common/components/video/effects/Effects';
-import type {CarbonIconType} from '@carbon/icons-react';
-import {
-  AppleDash,
-  Asterisk,
-  Barcode,
-  CenterCircle,
-  ColorPalette,
-  ColorSwitch,
-  Development,
-  Erase,
-  FaceWink,
-  Humidity,
-  Image,
-  Overlay,
-  TextFont,
-} from '@carbon/icons-react';
 
 export type DemoEffect = {
   title: string;

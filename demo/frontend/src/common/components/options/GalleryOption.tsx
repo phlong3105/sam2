@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 import ChangeVideoModal from '@/common/components/gallery/ChangeVideoModal';
-import type {VideoGalleryTriggerProps} from '@/common/components/gallery/DemoVideoGalleryModal';
+import type {
+    VideoGalleryTriggerProps
+} from '@/common/components/gallery/DemoVideoGalleryModal';
 import useScreenSize from '@/common/screen/useScreenSize';
 import {ImageCopy} from '@carbon/icons-react';
 import OptionButton from './OptionButton';

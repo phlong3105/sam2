@@ -19,8 +19,8 @@ import ToolbarSection from '@/common/components/toolbar/ToolbarSection';
 import useVideoEffect from '@/common/components/video/editor/useVideoEffect';
 import {EffectIndex} from '@/common/components/video/effects/Effects';
 import {
-  activeHighlightEffectAtom,
-  activeHighlightEffectGroupAtom,
+    activeHighlightEffectAtom,
+    activeHighlightEffectGroupAtom,
 } from '@/demo/atoms';
 import {useAtomValue} from 'jotai';
 

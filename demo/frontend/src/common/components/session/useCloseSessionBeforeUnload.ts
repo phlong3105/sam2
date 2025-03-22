@@ -13,7 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {useCloseSessionBeforeUnloadMutation$variables} from '@/common/components/session/__generated__/useCloseSessionBeforeUnloadMutation.graphql';
+import {
+    useCloseSessionBeforeUnloadMutation$variables
+} from '@/common/components/session/__generated__/useCloseSessionBeforeUnloadMutation.graphql';
 import {sessionAtom} from '@/demo/atoms';
 import useSettingsContext from '@/settings/useSettingsContext';
 import {useAtomValue} from 'jotai';

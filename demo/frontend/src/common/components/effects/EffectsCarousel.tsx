@@ -13,7 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {CarouselContainerShadow} from '@/common/components/effects/EffectsCarouselShadow';
+import {
+    CarouselContainerShadow
+} from '@/common/components/effects/EffectsCarouselShadow';
 import {DemoEffect} from '@/common/components/effects/EffectsUtils';
 import useVideoEffect from '@/common/components/video/editor/useVideoEffect';
 import type {EffectIndex} from '@/common/components/video/effects/Effects';

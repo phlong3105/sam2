@@ -13,11 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import MoreOptionsToolbarBottomActions from '@/common/components/options/MoreOptionsToolbarBottomActions';
+import MoreOptionsToolbarBottomActions
+    from '@/common/components/options/MoreOptionsToolbarBottomActions';
 import ShareSection from '@/common/components/options/ShareSection';
-import TryAnotherVideoSection from '@/common/components/options/TryAnotherVideoSection';
-import useMessagesSnackbar from '@/common/components/snackbar/useDemoMessagesSnackbar';
-import ToolbarHeaderWrapper from '@/common/components/toolbar/ToolbarHeaderWrapper';
+import TryAnotherVideoSection
+    from '@/common/components/options/TryAnotherVideoSection';
+import useMessagesSnackbar
+    from '@/common/components/snackbar/useDemoMessagesSnackbar';
+import ToolbarHeaderWrapper
+    from '@/common/components/toolbar/ToolbarHeaderWrapper';
 import useScreenSize from '@/common/screen/useScreenSize';
 import {useEffect, useRef} from 'react';
 

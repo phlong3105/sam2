@@ -13,16 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import useListenToStreamingState from '@/common/components/toolbar/useListenToStreamingState';
+import useListenToStreamingState
+    from '@/common/components/toolbar/useListenToStreamingState';
 import useToolbarTabs from '@/common/components/toolbar/useToolbarTabs';
 import useVideo from '@/common/components/video/editor/useVideo';
 import useVideoEffect from '@/common/components/video/editor/useVideoEffect';
 import {EffectIndex} from '@/common/components/video/effects/Effects';
 import useScreenSize from '@/common/screen/useScreenSize';
 import {
-  codeEditorOpenedAtom,
-  isPlayingAtom,
-  isStreamingAtom,
+    codeEditorOpenedAtom,
+    isPlayingAtom,
+    isStreamingAtom,
 } from '@/demo/atoms';
 import {useAtom, useAtomValue, useSetAtom} from 'jotai';
 import {useCallback, useEffect} from 'react';

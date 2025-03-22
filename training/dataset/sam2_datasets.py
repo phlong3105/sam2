@@ -6,12 +6,13 @@
 
 import logging
 import math
-from typing import Callable, Iterable, List, Optional, Sequence
+from typing import Callable, Iterable, List, Optional
 
 import torch
-
-from torch.utils.data import BatchSampler, DataLoader, Dataset, IterableDataset, Subset
-
+from torch.utils.data import (
+	BatchSampler, DataLoader, Dataset, IterableDataset,
+	Subset,
+)
 from torch.utils.data.distributed import DistributedSampler
 
 

@@ -8,7 +8,8 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ConcreteRequest, Mutation } from 'relay-runtime';
+import {ConcreteRequest} from 'relay-runtime';
+
 export type ClearPointsInVideoInput = {
   sessionId: string;
 };

@@ -17,12 +17,12 @@ import ErrorFallback from '@/common/error/ErrorFallback';
 import LoadingMessage from '@/common/loading/LoadingMessage';
 import {createEnvironment} from '@/graphql/RelayEnvironment';
 import {
-  ComponentType,
-  PropsWithChildren,
-  ReactNode,
-  Suspense,
-  useMemo,
-  useState,
+    ComponentType,
+    PropsWithChildren,
+    ReactNode,
+    Suspense,
+    useMemo,
+    useState,
 } from 'react';
 import {ErrorBoundary, FallbackProps} from 'react-error-boundary';
 import {RelayEnvironmentProvider} from 'react-relay';

@@ -9,9 +9,8 @@ import time
 
 import numpy as np
 import torch
-from tqdm import tqdm
-
 from sam2.build_sam import build_sam2_video_predictor
+from tqdm import tqdm
 
 # Only cuda supported
 assert torch.cuda.is_available()

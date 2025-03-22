@@ -16,19 +16,19 @@
 import {Effects} from '@/common/components/video/effects/Effects';
 import type {CarbonIconType} from '@carbon/icons-react';
 import {
-  AppleDash,
-  Asterisk,
-  Barcode,
-  CenterCircle,
-  ColorPalette,
-  ColorSwitch,
-  Development,
-  Erase,
-  FaceWink,
-  Humidity,
-  Image,
-  Overlay,
-  TextFont,
+    AppleDash,
+    Asterisk,
+    Barcode,
+    CenterCircle,
+    ColorPalette,
+    ColorSwitch,
+    Development,
+    Erase,
+    FaceWink,
+    Humidity,
+    Image,
+    Overlay,
+    TextFont,
 } from '@carbon/icons-react';
 
 export type DemoEffect = {

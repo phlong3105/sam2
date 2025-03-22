@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 import useRestartSession from '@/common/components/session/useRestartSession';
-import useMessagesSnackbar from '@/common/components/snackbar/useDemoMessagesSnackbar';
+import useMessagesSnackbar
+    from '@/common/components/snackbar/useDemoMessagesSnackbar';
 import useVideo from '@/common/components/video/editor/useVideo';
 import {isPlayingAtom, isStreamingAtom, labelTypeAtom} from '@/demo/atoms';
 import {Reset} from '@carbon/icons-react';

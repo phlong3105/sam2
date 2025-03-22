@@ -16,16 +16,16 @@
 import {SegmentationPoint} from '@/common/tracker/Tracker';
 import {TrackerOptions, Trackers} from '@/common/tracker/Trackers';
 import {
-  AddPointsEvent,
-  ClearPointsInVideoEvent,
-  SessionStartFailedEvent,
-  SessionStartedEvent,
-  StreamingCompletedEvent,
-  StreamingStartedEvent,
-  StreamingStateUpdateEvent,
-  TrackletCreatedEvent,
-  TrackletDeletedEvent,
-  TrackletsEvent,
+    AddPointsEvent,
+    ClearPointsInVideoEvent,
+    SessionStartedEvent,
+    SessionStartFailedEvent,
+    StreamingCompletedEvent,
+    StreamingStartedEvent,
+    StreamingStateUpdateEvent,
+    TrackletCreatedEvent,
+    TrackletDeletedEvent,
+    TrackletsEvent,
 } from '../components/video/VideoWorkerBridge';
 
 export type Flags = {

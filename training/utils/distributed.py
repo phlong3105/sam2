@@ -18,7 +18,6 @@ import torch
 import torch.autograd as autograd
 import torch.distributed as dist
 
-
 # Default to GPU 0
 _cuda_device_index: int = 0
 

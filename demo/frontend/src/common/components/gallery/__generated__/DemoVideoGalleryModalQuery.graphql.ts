@@ -8,8 +8,8 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ConcreteRequest, Query } from 'relay-runtime';
-import { FragmentRefs } from "relay-runtime";
+import {ConcreteRequest, FragmentRefs} from 'relay-runtime';
+
 export type DemoVideoGalleryModalQuery$variables = Record<PropertyKey, never>;
 export type DemoVideoGalleryModalQuery$data = {
   readonly " $fragmentSpreads": FragmentRefs<"DatasetsDropdown_datasets" | "VideoGallery_videos">;

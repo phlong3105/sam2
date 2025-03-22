@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import ToolbarHeaderWrapper from '@/common/components/toolbar/ToolbarHeaderWrapper';
+import ToolbarHeaderWrapper
+    from '@/common/components/toolbar/ToolbarHeaderWrapper';
 import {isStreamingAtom, streamingStateAtom} from '@/demo/atoms';
 import {useAtomValue} from 'jotai';
 

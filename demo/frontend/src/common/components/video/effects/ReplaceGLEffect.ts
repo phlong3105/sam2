@@ -18,14 +18,16 @@ import heartIcon from '@/assets/icons/heart.png';
 import whistleIcon from '@/assets/icons/whistle.png';
 import BaseGLEffect from '@/common/components/video/effects/BaseGLEffect';
 import {
-  EffectFrameContext,
-  EffectInit,
+    EffectFrameContext,
+    EffectInit,
 } from '@/common/components/video/effects/Effect';
-import vertexShaderSource from '@/common/components/video/effects/shaders/DefaultVert.vert?raw';
-import fragmentShaderSource from '@/common/components/video/effects/shaders/Replace.frag?raw';
+import vertexShaderSource
+    from '@/common/components/video/effects/shaders/DefaultVert.vert?raw';
+import fragmentShaderSource
+    from '@/common/components/video/effects/shaders/Replace.frag?raw';
 import {Tracklet} from '@/common/tracker/Tracker';
 import {normalizeBounds, preAllocateTextures} from '@/common/utils/ShaderUtils';
-import {RLEObject, decode} from '@/jscocotools/mask';
+import {decode, RLEObject} from '@/jscocotools/mask';
 import invariant from 'invariant';
 import {CanvasForm} from 'pts';
 

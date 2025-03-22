@@ -13,8 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import MobileObjectsToolbar from '@/common/components/annotations/MobileObjectsToolbar';
-import MobileEffectsToolbar from '@/common/components/effects/MobileEffectsToolbar';
+import MobileObjectsToolbar
+    from '@/common/components/annotations/MobileObjectsToolbar';
+import MobileEffectsToolbar
+    from '@/common/components/effects/MobileEffectsToolbar';
 import MoreOptionsToolbar from '@/common/components/options/MoreOptionsToolbar';
 
 type Props = {

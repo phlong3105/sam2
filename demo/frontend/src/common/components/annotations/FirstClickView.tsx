@@ -14,7 +14,8 @@
  * limitations under the License.
  */
 import ChangeVideo from '@/common/components/gallery/ChangeVideoModal';
-import useMessagesSnackbar from '@/common/components/snackbar/useDemoMessagesSnackbar';
+import useMessagesSnackbar
+    from '@/common/components/snackbar/useDemoMessagesSnackbar';
 import {DEMO_SHORT_NAME} from '@/demo/DemoConfig';
 import {useEffect, useRef} from 'react';
 

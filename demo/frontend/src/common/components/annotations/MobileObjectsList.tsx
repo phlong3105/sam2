@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import ClearAllPointsInVideoButton from '@/common/components/annotations/ClearAllPointsInVideoButton';
+import ClearAllPointsInVideoButton
+    from '@/common/components/annotations/ClearAllPointsInVideoButton';
 import ObjectThumbnail from '@/common/components/annotations/ObjectThumbnail';
 import {OBJECT_TOOLBAR_INDEX} from '@/common/components/toolbar/ToolbarConfig';
 import {BaseTracklet} from '@/common/tracker/Tracker';

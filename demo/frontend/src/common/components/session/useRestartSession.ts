@@ -13,15 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import useMessagesSnackbar from '@/common/components/snackbar/useDemoMessagesSnackbar';
+import useMessagesSnackbar
+    from '@/common/components/snackbar/useDemoMessagesSnackbar';
 import useVideo from '@/common/components/video/editor/useVideo';
 import useInputVideo from '@/common/components/video/useInputVideo';
 import {
-  activeTrackletObjectIdAtom,
-  isPlayingAtom,
-  isStreamingAtom,
-  labelTypeAtom,
-  trackletObjectsAtom,
+    activeTrackletObjectIdAtom,
+    isPlayingAtom,
+    isStreamingAtom,
+    labelTypeAtom,
+    trackletObjectsAtom,
 } from '@/demo/atoms';
 import {useAtomValue, useSetAtom} from 'jotai';
 import {useState} from 'react';

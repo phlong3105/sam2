@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import ToolbarProgressChip from '@/common/components/toolbar/ToolbarProgressChip';
+import ToolbarProgressChip
+    from '@/common/components/toolbar/ToolbarProgressChip';
 import {isStreamingAtom, streamingStateAtom} from '@/demo/atoms';
 import {useAtomValue} from 'jotai';
 

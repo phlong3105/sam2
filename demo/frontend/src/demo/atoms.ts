@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 import {
-  defaultMessageMap,
-  MessagesEventMap,
+    defaultMessageMap,
+    MessagesEventMap,
 } from '@/common/components/snackbar/DemoMessagesSnackbarUtils';
 import {Effects} from '@/common/components/video/effects/Effects';
 import {
-  DemoEffect,
-  highlightEffects,
+    DemoEffect,
+    highlightEffects,
 } from '@/common/components/video/effects/EffectUtils';
 import {
-  BaseTracklet,
-  SegmentationPoint,
-  StreamingState,
+    BaseTracklet,
+    SegmentationPoint,
+    StreamingState,
 } from '@/common/tracker/Tracker';
 import type {DataArray} from '@/jscocotools/mask';
 import {atom} from 'jotai';

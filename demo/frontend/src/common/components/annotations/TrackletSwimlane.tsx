@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import useSelectedFrameHelper from '@/common/components/video/filmstrip/useSelectedFrameHelper';
+import useSelectedFrameHelper
+    from '@/common/components/video/filmstrip/useSelectedFrameHelper';
 import {BaseTracklet, DatalessMask} from '@/common/tracker/Tracker';
 import {spacing, w} from '@/theme/tokens.stylex';
 import stylex from '@stylexjs/stylex';

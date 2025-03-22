@@ -13,7 +13,6 @@ from datetime import timedelta
 from typing import Optional
 
 import hydra
-
 import numpy as np
 import omegaconf
 import torch

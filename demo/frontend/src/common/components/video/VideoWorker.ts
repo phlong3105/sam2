@@ -13,15 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {registerSerializableConstructors} from '@/common/error/ErrorSerializationUtils';
+import {
+    registerSerializableConstructors
+} from '@/common/error/ErrorSerializationUtils';
 import {Tracker} from '@/common/tracker/Tracker';
 import {TrackerRequestMessageEvent} from '@/common/tracker/TrackerTypes';
 import {TRACKER_MAPPING} from '@/common/tracker/Trackers';
 import {serializeError} from 'serialize-error';
 import VideoWorkerContext from './VideoWorkerContext';
 import {
-  ErrorResponse,
-  VideoWorkerRequestMessageEvent,
+    ErrorResponse,
+    VideoWorkerRequestMessageEvent,
 } from './VideoWorkerTypes';
 
 registerSerializableConstructors();

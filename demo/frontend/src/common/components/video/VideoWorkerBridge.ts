@@ -14,51 +14,53 @@
  * limitations under the License.
  */
 import {EffectIndex, Effects} from '@/common/components/video/effects/Effects';
-import {registerSerializableConstructors} from '@/common/error/ErrorSerializationUtils';
 import {
-  BaseTracklet,
-  SegmentationPoint,
-  StreamingState,
+    registerSerializableConstructors
+} from '@/common/error/ErrorSerializationUtils';
+import {
+    BaseTracklet,
+    SegmentationPoint,
+    StreamingState,
 } from '@/common/tracker/Tracker';
 import {
-  AbortStreamMasksRequest,
-  AddPointsResponse,
-  ClearPointsInFrameRequest,
-  ClearPointsInVideoRequest,
-  ClearPointsInVideoResponse,
-  CloseSessionRequest,
-  CreateTrackletRequest,
-  DeleteTrackletRequest,
-  InitializeTrackerRequest,
-  LogAnnotationsRequest,
-  SessionStartFailedResponse,
-  SessionStartedResponse,
-  StartSessionRequest,
-  StreamMasksRequest,
-  StreamingStateUpdateResponse,
-  TrackerRequest,
-  TrackerResponseMessageEvent,
-  TrackletCreatedResponse,
-  TrackletDeletedResponse,
-  UpdatePointsRequest,
+    AbortStreamMasksRequest,
+    AddPointsResponse,
+    ClearPointsInFrameRequest,
+    ClearPointsInVideoRequest,
+    ClearPointsInVideoResponse,
+    CloseSessionRequest,
+    CreateTrackletRequest,
+    DeleteTrackletRequest,
+    InitializeTrackerRequest,
+    LogAnnotationsRequest,
+    SessionStartedResponse,
+    SessionStartFailedResponse,
+    StartSessionRequest,
+    StreamingStateUpdateResponse,
+    StreamMasksRequest,
+    TrackerRequest,
+    TrackerResponseMessageEvent,
+    TrackletCreatedResponse,
+    TrackletDeletedResponse,
+    UpdatePointsRequest,
 } from '@/common/tracker/TrackerTypes';
 import {TrackerOptions, Trackers} from '@/common/tracker/Trackers';
 import {MP4ArrayBuffer} from 'mp4box';
 import {deserializeError, type ErrorObject} from 'serialize-error';
 import {EventEmitter} from './EventEmitter';
 import {
-  EncodeVideoRequest,
-  FilmstripRequest,
-  FilmstripResponse,
-  FrameUpdateRequest,
-  PauseRequest,
-  PlayRequest,
-  SetCanvasRequest,
-  SetEffectRequest,
-  SetSourceRequest,
-  StopRequest,
-  VideoWorkerRequest,
-  VideoWorkerResponseMessageEvent,
+    EncodeVideoRequest,
+    FilmstripRequest,
+    FilmstripResponse,
+    FrameUpdateRequest,
+    PauseRequest,
+    PlayRequest,
+    SetCanvasRequest,
+    SetEffectRequest,
+    SetSourceRequest,
+    StopRequest,
+    VideoWorkerRequest,
+    VideoWorkerResponseMessageEvent,
 } from './VideoWorkerTypes';
 import {EffectOptions} from './effects/Effect';
 

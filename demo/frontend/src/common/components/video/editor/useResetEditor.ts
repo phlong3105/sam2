@@ -17,13 +17,13 @@ import {OBJECT_TOOLBAR_INDEX} from '@/common/components/toolbar/ToolbarConfig';
 import useToolbarTabs from '@/common/components/toolbar/useToolbarTabs';
 import useVideo from '@/common/components/video/editor/useVideo';
 import {
-  activeTrackletObjectIdAtom,
-  frameIndexAtom,
-  isPlayingAtom,
-  isStreamingAtom,
-  sessionAtom,
-  streamingStateAtom,
-  trackletObjectsAtom,
+    activeTrackletObjectIdAtom,
+    frameIndexAtom,
+    isPlayingAtom,
+    isStreamingAtom,
+    sessionAtom,
+    streamingStateAtom,
+    trackletObjectsAtom,
 } from '@/demo/atoms';
 import {DEFAULT_EFFECT_LAYERS} from '@/demo/DemoConfig';
 import {useSetAtom} from 'jotai';

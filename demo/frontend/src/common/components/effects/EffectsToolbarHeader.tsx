@@ -13,11 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import ToolbarHeaderWrapper from '@/common/components/toolbar/ToolbarHeaderWrapper';
+import ToolbarHeaderWrapper
+    from '@/common/components/toolbar/ToolbarHeaderWrapper';
 import useVideoEffect from '@/common/components/video/editor/useVideoEffect';
 import {
-  EffectIndex,
-  effectPresets,
+    EffectIndex,
+    effectPresets,
 } from '@/common/components/video/effects/Effects';
 import {BLUE_PINK_FILL} from '@/theme/gradientStyle';
 import {MagicWandFilled} from '@carbon/icons-react';

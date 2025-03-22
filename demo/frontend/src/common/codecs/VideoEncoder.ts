@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import {ImageFrame} from '@/common/codecs/VideoDecoder';
-import {MP4ArrayBuffer, createFile} from 'mp4box';
+import {createFile, MP4ArrayBuffer} from 'mp4box';
 
 // The selection of timescale and seconds/key-frame value are
 // explained in the following docs: https://github.com/vjeux/mp4-h264-re-encode

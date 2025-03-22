@@ -17,15 +17,15 @@ import PointsToggle from '@/common/components/annotations/PointsToggle';
 import useVideo from '@/common/components/video/editor/useVideo';
 import useReportError from '@/common/error/useReportError';
 import {
-  activeTrackletObjectIdAtom,
-  isPlayingAtom,
-  isStreamingAtom,
+    activeTrackletObjectIdAtom,
+    isPlayingAtom,
+    isStreamingAtom,
 } from '@/demo/atoms';
 import {
-  AddFilled,
-  Select_02,
-  SubtractFilled,
-  TrashCan,
+    AddFilled,
+    Select_02,
+    SubtractFilled,
+    TrashCan,
 } from '@carbon/icons-react';
 import {useAtom, useAtomValue} from 'jotai';
 import {useState} from 'react';

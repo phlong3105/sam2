@@ -13,8 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {DemoVideoGalleryQuery} from '@/common/components/gallery/__generated__/DemoVideoGalleryQuery.graphql';
-import VideoGalleryUploadVideo from '@/common/components/gallery/VideoGalleryUploadPhoto';
+import {
+    DemoVideoGalleryQuery
+} from '@/common/components/gallery/__generated__/DemoVideoGalleryQuery.graphql';
+import VideoGalleryUploadVideo
+    from '@/common/components/gallery/VideoGalleryUploadPhoto';
 import VideoPhoto from '@/common/components/gallery/VideoPhoto';
 import useScreenSize from '@/common/screen/useScreenSize';
 import {VideoData} from '@/demo/atoms';

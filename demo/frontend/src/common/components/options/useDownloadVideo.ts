@@ -15,8 +15,8 @@
  */
 import {getFileName} from '@/common/components/options/ShareUtils';
 import {
-  EncodingCompletedEvent,
-  EncodingStateUpdateEvent,
+    EncodingCompletedEvent,
+    EncodingStateUpdateEvent,
 } from '@/common/components/video/VideoWorkerBridge';
 import useVideo from '@/common/components/video/editor/useVideo';
 import {MP4ArrayBuffer} from 'mp4box';

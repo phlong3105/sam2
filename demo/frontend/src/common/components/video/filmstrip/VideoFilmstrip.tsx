@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import SelectedFrameHelper from '@/common/components/video/filmstrip/SelectedFrameHelper';
+import SelectedFrameHelper
+    from '@/common/components/video/filmstrip/SelectedFrameHelper';
 import {isPlayingAtom} from '@/demo/atoms';
 import stylex from '@stylexjs/stylex';
 import {useAtomValue, useSetAtom} from 'jotai';
@@ -24,10 +25,10 @@ import {VideoRef} from '../Video';
 import {DecodeEvent, FrameUpdateEvent} from '../VideoWorkerBridge';
 import useVideo from '../editor/useVideo';
 import {
-  drawFilmstrip,
-  drawMarker,
-  getPointerPosition,
-  getTimeFromFrame,
+    drawFilmstrip,
+    drawMarker,
+    getPointerPosition,
+    getTimeFromFrame,
 } from './FilmstripUtil';
 import {selectedFrameHelperAtom} from './atoms';
 import useDisableScrolling from './useDisableScrolling';

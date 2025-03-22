@@ -13,7 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {useUploadVideoMutation} from '@/common/components/gallery/__generated__/useUploadVideoMutation.graphql';
+import {
+    useUploadVideoMutation
+} from '@/common/components/gallery/__generated__/useUploadVideoMutation.graphql';
 import Logger from '@/common/logger/Logger';
 import {VideoData} from '@/demo/atoms';
 import {useState} from 'react';

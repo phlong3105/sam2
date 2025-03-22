@@ -15,11 +15,11 @@
  */
 import Logger from '@/common/logger/Logger';
 import {
-  CacheConfig,
-  GraphQLResponse,
-  RequestParameters,
-  UploadableMap,
-  Variables,
+    CacheConfig,
+    GraphQLResponse,
+    RequestParameters,
+    UploadableMap,
+    Variables,
 } from 'relay-runtime';
 
 /**

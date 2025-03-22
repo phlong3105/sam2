@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 import useVideo from '@/common/components/video/editor/useVideo';
-import {getPointInImage} from '@/common/components/video/editor/VideoEditorUtils';
+import {
+    getPointInImage
+} from '@/common/components/video/editor/VideoEditorUtils';
 import {SegmentationPoint} from '@/common/tracker/Tracker';
 import {labelTypeAtom} from '@/demo/atoms';
 import stylex from '@stylexjs/stylex';

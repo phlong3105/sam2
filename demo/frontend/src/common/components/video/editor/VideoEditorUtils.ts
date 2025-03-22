@@ -15,8 +15,8 @@
  */
 import {Mask, Tracklet} from '@/common/tracker/Tracker';
 import {
-  convertVideoFrameToImageData,
-  findBoundingBox,
+    convertVideoFrameToImageData,
+    findBoundingBox,
 } from '@/common/utils/ImageUtils';
 import {DataArray} from '@/jscocotools/mask';
 import invariant from 'invariant';

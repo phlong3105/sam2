@@ -15,11 +15,13 @@
  */
 import BaseGLEffect from '@/common/components/video/effects/BaseGLEffect';
 import {
-  EffectFrameContext,
-  EffectInit,
+    EffectFrameContext,
+    EffectInit,
 } from '@/common/components/video/effects/Effect';
-import vertexShaderSource from '@/common/components/video/effects/shaders/DefaultVert.vert?raw';
-import fragmentShaderSource from '@/common/components/video/effects/shaders/Gradient.frag?raw';
+import vertexShaderSource
+    from '@/common/components/video/effects/shaders/DefaultVert.vert?raw';
+import fragmentShaderSource
+    from '@/common/components/video/effects/shaders/Gradient.frag?raw';
 import {Tracklet} from '@/common/tracker/Tracker';
 import {generateLUTDATA, load3DLUT} from '@/common/utils/ShaderUtils';
 import invariant from 'invariant';

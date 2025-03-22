@@ -6,23 +6,27 @@
 import logging
 from typing import Any, Generator
 
+from flask import (
+	Flask, make_response, Request, request, Response,
+	send_from_directory,
+)
+from flask_cors import CORS
+from strawberry.flask.views import GraphQLView
+
 from app_conf import (
-    GALLERY_PATH,
-    GALLERY_PREFIX,
-    POSTERS_PATH,
-    POSTERS_PREFIX,
-    UPLOADS_PATH,
-    UPLOADS_PREFIX,
+	GALLERY_PATH,
+	GALLERY_PREFIX,
+	POSTERS_PATH,
+	POSTERS_PREFIX,
+	UPLOADS_PATH,
+	UPLOADS_PREFIX,
 )
 from data.loader import preload_data
 from data.schema import schema
 from data.store import set_videos
-from flask import Flask, make_response, Request, request, Response, send_from_directory
-from flask_cors import CORS
-from inference.data_types import PropagateDataResponse, PropagateInVideoRequest
+from inference.data_types import PropagateInVideoRequest
 from inference.multipart import MultipartResponseBuilder
 from inference.predictor import InferenceAPI
-from strawberry.flask.views import GraphQLView
 
 logger = logging.getLogger(__name__)
 

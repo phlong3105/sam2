@@ -17,17 +17,17 @@ import emptyFunction from '@/common/utils/emptyFunction';
 import {INFERENCE_API_ENDPOINT, VIDEO_API_ENDPOINT} from '@/demo/DemoConfig';
 import SettingsModal from '@/settings/SettingsModal';
 import {
-  Action,
-  DEFAULT_SETTINGS,
-  Settings,
-  settingsReducer,
+    Action,
+    DEFAULT_SETTINGS,
+    Settings,
+    settingsReducer,
 } from '@/settings/SettingsReducer';
 import {
-  PropsWithChildren,
-  createContext,
-  useCallback,
-  useMemo,
-  useRef,
+    createContext,
+    PropsWithChildren,
+    useCallback,
+    useMemo,
+    useRef,
 } from 'react';
 import {useImmerReducer} from 'use-immer';
 

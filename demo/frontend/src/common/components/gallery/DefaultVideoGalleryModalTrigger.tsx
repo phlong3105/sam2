@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 import ResponsiveButton from '@/common/components/button/ResponsiveButton';
-import type {VideoGalleryTriggerProps} from '@/common/components/gallery/DemoVideoGalleryModal';
+import type {
+    VideoGalleryTriggerProps
+} from '@/common/components/gallery/DemoVideoGalleryModal';
 import {ImageCopy} from '@carbon/icons-react';
 
 export default function DefaultVideoGalleryModalTrigger({

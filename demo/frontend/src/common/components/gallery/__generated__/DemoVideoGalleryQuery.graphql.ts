@@ -8,7 +8,8 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { ConcreteRequest, Query } from 'relay-runtime';
+import {ConcreteRequest} from 'relay-runtime';
+
 export type DemoVideoGalleryQuery$variables = Record<PropertyKey, never>;
 export type DemoVideoGalleryQuery$data = {
   readonly videos: {

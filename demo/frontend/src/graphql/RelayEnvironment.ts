@@ -15,18 +15,18 @@
  */
 import Logger from '@/common/logger/Logger';
 import {
-  CacheConfig,
-  Environment,
-  FetchFunction,
-  GraphQLResponse,
-  LogEvent,
-  Network,
-  ObservableFromValue,
-  RecordSource,
-  RequestParameters,
-  Store,
-  UploadableMap,
-  Variables,
+    CacheConfig,
+    Environment,
+    FetchFunction,
+    GraphQLResponse,
+    LogEvent,
+    Network,
+    ObservableFromValue,
+    RecordSource,
+    RequestParameters,
+    Store,
+    UploadableMap,
+    Variables,
 } from 'relay-runtime';
 import fetchGraphQL from './fetchGraphQL';
 

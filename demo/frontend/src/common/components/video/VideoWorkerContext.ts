@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 import {
-  DecodedVideo,
-  ImageFrame,
-  decodeStream,
+    DecodedVideo,
+    decodeStream,
+    ImageFrame,
 } from '@/common/codecs/VideoDecoder';
 import {encode as encodeVideo} from '@/common/codecs/VideoEncoder';
 import {
-  Effect,
-  EffectActionPoint,
-  EffectFrameContext,
-  EffectOptions,
+    Effect,
+    EffectActionPoint,
+    EffectFrameContext,
+    EffectOptions,
 } from '@/common/components/video/effects/Effect';
 import AllEffects, {
-  EffectIndex,
-  Effects,
+    EffectIndex,
+    Effects,
 } from '@/common/components/video/effects/Effects';
 import Logger from '@/common/logger/Logger';
 import {Mask, SegmentationPoint, Tracklet} from '@/common/tracker/Tracker';
@@ -42,16 +42,16 @@ import invariant from 'invariant';
 import {CanvasForm} from 'pts';
 import {serializeError} from 'serialize-error';
 import {
-  DecodeResponse,
-  EffectUpdateResponse,
-  EncodingCompletedResponse,
-  EncodingStateUpdateResponse,
-  FilmstripResponse,
-  FrameUpdateResponse,
-  PauseRequest,
-  PlayRequest,
-  RenderingErrorResponse,
-  VideoWorkerResponse,
+    DecodeResponse,
+    EffectUpdateResponse,
+    EncodingCompletedResponse,
+    EncodingStateUpdateResponse,
+    FilmstripResponse,
+    FrameUpdateResponse,
+    PauseRequest,
+    PlayRequest,
+    RenderingErrorResponse,
+    VideoWorkerResponse,
 } from './VideoWorkerTypes';
 
 function getEvenlySpacedItems(decodedVideo: DecodedVideo, x: number) {

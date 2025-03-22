@@ -3,8 +3,6 @@
 
 from __future__ import annotations
 
-import argparse
-import copy
 import logging
 from typing import Sequence
 
@@ -14,8 +12,8 @@ import torch
 import torch.optim
 
 import mon
-from sam2.build_sam import build_sam2
 from sam2.automatic_mask_generator import SAM2AutomaticMaskGenerator
+from sam2.build_sam import build_sam2
 
 console      = mon.console
 current_file = mon.Path(__file__).absolute()

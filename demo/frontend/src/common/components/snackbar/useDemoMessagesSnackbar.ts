@@ -13,8 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import {MessagesEventMap} from '@/common/components/snackbar/DemoMessagesSnackbarUtils';
-import useMessagesSnackbar from '@/common/components/snackbar/useMessagesSnackbar';
+import {
+    MessagesEventMap
+} from '@/common/components/snackbar/DemoMessagesSnackbarUtils';
+import useMessagesSnackbar
+    from '@/common/components/snackbar/useMessagesSnackbar';
 import {messageMapAtom} from '@/demo/atoms';
 import {useAtom} from 'jotai';
 import {useCallback} from 'react';

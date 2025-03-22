@@ -13,14 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import RestartSessionButton from '@/common/components/session/RestartSessionButton';
+import RestartSessionButton
+    from '@/common/components/session/RestartSessionButton';
 import {
-  EFFECT_TOOLBAR_INDEX,
-  OBJECT_TOOLBAR_INDEX,
+    EFFECT_TOOLBAR_INDEX,
+    OBJECT_TOOLBAR_INDEX,
 } from '@/common/components/toolbar/ToolbarConfig';
 import {ChevronLeft} from '@carbon/icons-react';
 import {Button} from 'react-daisyui';
-import ToolbarBottomActionsWrapper from '../toolbar/ToolbarBottomActionsWrapper';
+import ToolbarBottomActionsWrapper
+    from '../toolbar/ToolbarBottomActionsWrapper';
 
 type Props = {
   onTabChange: (newIndex: number) => void;

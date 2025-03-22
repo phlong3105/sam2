@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 import ChangeVideoModal from '@/common/components/gallery/ChangeVideoModal';
-import type {VideoGalleryTriggerProps} from '@/common/components/gallery/DemoVideoGalleryModal';
+import type {
+    VideoGalleryTriggerProps
+} from '@/common/components/gallery/DemoVideoGalleryModal';
 import LoadingStateScreen from '@/common/loading/LoadingStateScreen';
 import {uploadingStateAtom} from '@/demo/atoms';
 import {ImageCopy} from '@carbon/icons-react';
