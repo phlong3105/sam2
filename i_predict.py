@@ -58,13 +58,7 @@ def predict(args: dict) -> str:
     
     # Data I/O
     console.log(f"[bold red]{data}")
-    data_name, data_loader, data_writer = mon.parse_io_worker(
-        src         = data,
-        dst         = save_dir,
-        to_tensor   = False,
-        denormalize = True,
-        verbose     = False,
-    )
+    data_name, data_loader = mon.parse_data_loader(data, False, verbose=False)
     
     # Model
     sam2 = build_sam2(str(config_file), str(weights), device="cuda", apply_postprocessing=False)
